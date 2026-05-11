@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\Inferno\\\\Documents\\\\GitHub\\\\-R3F-Enhanced-Logistics--ALiVE-Compatible-\" -Recurse -Directory | Select-Object -First 30 | ForEach-Object { $_.Name })",
+      "PowerShell(Get-ChildItem -Path \"c:\\\\Users\\\\Inferno\\\\Documents\\\\GitHub\\\\-R3F-Enhanced-Logistics--ALiVE-Compatible-\\\\addons\\\\R3FAdvLog\" -Recurse | Where-Object {$_.PSIsContainer} | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\Users\\\\Inferno\\\\Documents\\\\GitHub\\\\-R3F-Enhanced-Logistics--ALiVE-Compatible-\\\\\", \"\"\\)} | Sort-Object)"
+    ]
+  }
+}

@@ -8,7 +8,7 @@
  */
 R3F_LOG_CFG_can_be_transported_cargo append
 [
-	["ACE_Wheel", 4], ["ACE_Track", 2]
+	["ACE_Wheel", 4], ["ACE_Track", 2], ["ACE_bodyBag", 2]
 ];
 
 /****** MOVABLE-BY-PLAYER OBJECTS / OBJETS DEPLACABLES PAR LE JOUEUR ******/
@@ -19,5 +19,5 @@ R3F_LOG_CFG_can_be_transported_cargo append
  */
 R3F_LOG_CFG_can_be_moved_by_player append
 [
-	"ACE_Wheel", "ACE_Track"
+	"ACE_Wheel", "ACE_Track", "ACE_bodyBag"
 ];
