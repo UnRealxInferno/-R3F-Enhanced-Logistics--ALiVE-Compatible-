@@ -178,6 +178,11 @@ class Extended_Init_EventHandlers {
 	{
 		init = "[_this select 0] call AdvLog_fnc_objectInit;";
 	};
+
+	class ACE_bodyBag
+	{
+		init = "[_this select 0] call AdvLog_fnc_objectInit;";
+	};
 };
 
 
