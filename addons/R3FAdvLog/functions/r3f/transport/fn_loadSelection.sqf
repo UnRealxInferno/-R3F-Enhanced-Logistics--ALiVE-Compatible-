@@ -35,7 +35,7 @@ else
 
 			if (isNull (_object getVariable ["R3F_LOG_remorque", objNull])) then
 			{
-				if (count crew _object == 0 || getNumber (configFile >> "CfgVehicles" >> (typeOf _object) >> "isUav") == 1 || _object isKindOf "ACE_bodyBag") then
+				if (count crew _object == 0 || getNumber (configFile >> "CfgVehicles" >> (typeOf _object) >> "isUav") == 1 || _object isKindOf "ACE_bodyBag" || _object isKindOf "ACE_bodyBagObject") then
 				{
 					private ["_objects_charges", "_chargement", "_cout_chargement_object"];
 
